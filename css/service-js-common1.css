@@ -1,0 +1,122 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #fff;
+}
+.z-con-us{
+	background: #f0f0f0;
+}
+/*头子开始*/
+.z-abo-us{
+	width: 100%;
+}
+.z-abo-us img{
+	max-width: 100%;
+}
+.z-con-us-pic{
+	width: 100%;
+	height: 12.6rem;
+	line-height: 12.6rem;
+}
+.z-con-us-pic img{
+	vertical-align: middle;
+	max-width: 100%;
+}
+/*头子结束*/
+/*切换开始*/
+.z-hnav-wraper{
+	margin-bottom: 3.8rem !important;
+}
+.z-hnav{
+	display: inline-block;
+	width: 32%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.z-hnav img{
+	max-width: 100%;
+}
+.z-hnav p{
+	font-family: "微软雅黑";
+	font-size: 2.4rem;
+	line-height: 6rem;
+	color: #666;
+	text-align: center;
+}
+.z-hnav-active p,.z-hnav:hover p{
+	color: #0e76bd;
+}
+/*切换结束*/
+/*内容开始*/
+.z-js-con-s{
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 9rem;
+}
+.z-js-con-s-txt,.z-js-con-s-pic{
+	display: inline-block;
+}
+.z-js-con-s-txt{
+	width: 52%;
+	margin-right: 3%;
+	vertical-align: top;
+}
+.z-js-con-s-txt h1{
+	font-family: "微软雅黑";
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	color: #0e76bd;
+	margin-bottom: 1.8rem;
+}
+.z-js-con-s-txt p{
+	font-family: "微软雅黑";
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	color: #666;
+}
+.z-js-con-s-pic{
+	width: 45%;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+.z-js-con-s-pic img{
+	max-width: 100%;
+}
+.z-js-con-x-l{
+	float: left;
+	width: 37%;
+}
+.z-js-con-x-r{
+	float: right;
+	width: 53%;
+}
+.z-con-x-l-pic{
+	width: 100%;
+	border-radius: : 2rem;
+	overflow: hidden;
+	margin-bottom: 6rem;
+}
+.z-con-x-l-pic img{
+	max-width: 100%;
+}
+.z-con-x-l-pic-last{
+	margin-bottom: 0;
+}
+.z-con-x-r-txt{
+	margin-bottom: 8rem;
+}
+.z-con-x-r-txt h1{
+	font-family: "微软雅黑";
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	color: #0e76bd;
+	margin-bottom: 1.8rem;
+}
+.z-con-x-r-txt p{
+	font-family: "微软雅黑";
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	color: #666;
+}
+/*内容结束*/

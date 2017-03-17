@@ -1,0 +1,94 @@
+/*内容开始*/
+@media only screen and (max-width: 1531px) {
+	.z-pro-wraper{
+		margin-top: 2%;
+	}
+	.z-pro-item{
+		margin-bottom: 1%;
+	}
+}
+@media only screen and (max-width: 1380px) {
+	.z-pro-item h2{
+		font-size: 2rem !important;
+	}
+@media only screen and (max-width: 1000px) {
+	.z-pro-item h2{
+		font-size: 1.8rem !important;
+	}
+}}
+@media only screen and (max-width: 1020px) {
+	.z-p5-ser-item a{
+		bottom: 1rem !important;
+	}
+}
+
+@media only screen and (max-width: 1270px) {
+	.z-p5-ser-item a{
+		padding: 0.2rem 1rem !important;
+		font-size: 1.2rem;
+	}
+	.z-p5-ser-item p{
+		font-size: 1.6rem !important;
+	}
+}
+@media only screen and (max-width: 1135px) {
+	.z-p5-ser-item p{
+		font-size: 1.4rem !important;
+	}
+}
+@media only screen and (max-width: 1135px) {
+	.z-p5-ser-item p{
+		font-size: 1.4rem !important;
+	}
+}
+@media only screen and (max-width: 1005px) {
+	.z-p5-ser-item a{
+		padding: 0.2rem 0.5rem !important;
+		font-size: 1.2rem;
+	}
+	.z-p5-ser-item p{
+		font-size: 1.2rem !important;
+	}
+	.z-p5-ser-txt-wraper h1{
+		font-size: 3rem !important;
+	    line-height: 3rem !important;
+	    margin-bottom: 2rem !important;
+	}
+}
+@media only screen and (max-width: 1380px) {
+	.z-p5-ser-txt-wraper h1{
+		font-size: 5rem !important;
+	    line-height: 5rem !important;
+	    margin-bottom: 2rem !important;
+	}
+	.z-p5-ser-item{
+		height: 19.7rem;
+	}
+	.z-p5-jg{
+		height: 7rem !important;
+	}
+}
+@media only screen and (max-width: 1005px) {
+	.z-p5-ser-txt-wraper h1{
+		font-size: 3rem !important;
+	    line-height: 3rem !important;
+	    margin-bottom: 2rem !important;
+	}
+}
+@media only screen and (max-width: 1028px){
+	.z-p5-ser-item{
+		height: 17rem;
+	}
+}
+
+@media only screen and (max-width: 1001px) {
+	.z-p5-jg{
+		height: 4rem !important;
+	}
+}
+@media only screen and (min-width: 1400px) {
+	.z-p3-header{
+		top: 78%;
+	}
+}
+/*内容结束*/

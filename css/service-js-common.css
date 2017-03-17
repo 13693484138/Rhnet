@@ -1,0 +1,100 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #fff;
+}
+.z-con-us{
+	background: #f0f0f0;
+}
+/*头子开始*/
+.z-abo-us{
+	width: 100%;
+}
+.z-abo-us img{
+	max-width: 100%;
+}
+.z-con-us-pic{
+	width: 100%;
+	height: 12.6rem;
+	line-height: 12.6rem;
+}
+.z-con-us-pic img{
+	vertical-align: middle;
+	max-width: 100%;
+}
+/*头子结束*/
+/*切换开始*/
+.z-hnav-wraper{
+	margin-bottom: 3.8rem !important;
+}
+.z-hnav{
+	display: inline-block;
+	width: 32%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.z-hnav img{
+	max-width: 100%;
+}
+.z-hnav p{
+	font-family: "微软雅黑";
+	font-size: 2.4rem;
+	line-height: 6rem;
+	color: #666;
+	text-align: center;
+}
+.z-hnav-active p,.z-hnav:hover p{
+	color: #0e76bd;
+}
+/*切换结束*/
+/*内容开始*/
+.z-kf-con-wraper{
+	position: relative;
+}
+.z-kf-con-l{
+	width: 26%;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+.z-kf-con-r{
+	width: 27%;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+.z-con-item{
+	width: 100%;
+}
+.z-kf-con-l .z-con-item h1{
+	font-family: "微软雅黑";
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	color: #0e76bd;
+	text-align: right;
+}
+.z-kf-con-r .z-con-item h1{
+	font-family: "微软雅黑";
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	color: #0e76bd;
+	text-align: left;
+}
+.z-con-item p{
+	font-family: "微软雅黑";
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+}
+.z-kf-con-lj{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -2rem;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.z-kf-con-lj img{
+	max-width: 100%;
+}
+/*内容结束*/

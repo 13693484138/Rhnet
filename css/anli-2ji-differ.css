@@ -1,0 +1,42 @@
+/*头子开始*/
+@media only screen and (min-width: 1001px) {
+	.z-com-pro-wraper{
+		width: 100rem;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.z-com-pro-wraper{
+		width: 98%;
+		margin: 0 auto;
+	}
+}
+/*头子结束*/
+
+/*内容开始*/
+@media only screen and (min-width: 1001px) {
+	.z-cp-con-wraper{
+		width: 100rem;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.z-ic-wraper{
+		width: 102rem;
+		margin-right: -2rem;
+		    text-align: center;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.z-cp-con-wraper{
+		width: 98%;
+		margin: 0 auto;
+		overflow: hidden;
+		text-align: center;
+	}
+	.z-ic-wraper{
+		width: 102%;
+		margin-right: -2%;
+		  text-align: center;
+	}
+}
+/*内容结束*/

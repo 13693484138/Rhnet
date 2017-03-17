@@ -1,0 +1,186 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #fff;
+}
+.z-con-us{
+	background: #f0f0f0;
+}
+/*公司简介开始*/
+.z-com-pro-pic{
+	width: 98%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 1.7rem;
+}
+.z-com-pro-pic img{
+	max-width: 100%;
+}
+.z-com-pro-wraper{
+	margin-bottom: 3.8rem !important;
+}
+.z-com-pro-wraper p{
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+	line-height: 3rem;
+	color: #666;
+}
+.z-abo-us{
+	width: 100%;
+}
+.z-abo-us img{
+	max-width: 100%;
+}
+.z-con-us-pic{
+	width: 100%;
+	height: 126px;
+	line-height: 126px;
+}
+.z-con-us-pic img{
+	vertical-align: middle;
+	max-width: 100%;
+
+}
+/*公司简介结束*/
+
+/*公司文化和公司目标开始*/
+.z-culAobj-wraper{
+	margin-bottom: 4.5rem !important;
+}
+.z-culAobj-wraper p{
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+	line-height: 3rem;
+	color: #666;
+	margin-top: 2.4rem;
+}
+.z-cul,.z-obj{
+	display: inline-block;
+	vertical-align: middle;
+	width: 48rem;
+	height: 38.4rem;
+	overflow: hidden;
+}
+.z-cul{
+	background: url(../images/z-cul-bg.jpg) center bottom no-repeat;
+	margin-right: 3.5rem;
+}
+.z-cul-pic{
+	width: 100%;
+	text-align: center;
+}
+.z-cul-pic img{
+	max-width: 100%;
+}
+.z-obj{
+	background: url(../images/z-obj-bg.jpg) center bottom no-repeat;
+}
+.z-obj-pic{
+	width: 100%;
+	text-align: center;
+}
+.z-obj-pic img{
+	max-width: 100%;
+}
+/*公司文化和公司目标结束*/
+/*加入我们开始*/
+.z-join-wraper{
+	/*margin-bottom: 4.5rem !important;*/
+	position: relative;
+}
+.z-join-pic{
+	width: 98%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 2.4rem;
+}
+.z-join-pic img{
+	max-width: 100%;
+}
+.z-join-list-wraper{
+	width: 100%;
+}
+.z-join-list{
+	display: table;
+	width: 33.33%;
+	height: 20rem;
+	float: left;
+}
+.z-join-list span{
+	display: table-cell;
+	font-family: "微软雅黑";
+	font-size: 3.6rem;
+	color: #fff;
+	line-height: 7.2rem;
+	vertical-align: middle;
+	text-align: center;
+}
+.z-join-list:hover{
+	box-shadow:0px 0px 12px 1px #666 inset;
+}
+.z-us1{
+	background-color: #0e76bd;
+}
+.z-us2{
+	background-color: #0ebeac;
+}
+.z-us3{
+	background-color: #54b3f2;
+}
+.z-us4{
+	background-color: #f29354;
+}
+.z-us5{
+	background-color: #023564;
+}
+.z-us6{
+	background-color: #1799ca;
+}
+.z-list-item{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: none;
+}
+.z-list-item-bg{
+	float: left;
+	width: 10%;
+	background: #000;
+	opacity: 0.4;
+	fifter:alpha(opcity=40;);
+}
+.z-item-con{
+	width: 80%;
+	margin: 0 auto;
+	background: #fff;
+	overflow: auto;
+	float: left;
+	position: relative;
+}
+.z-details-con-wraper{
+	width: 96%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.z-details-con-tit{
+	font-family: "微软雅黑";
+	font-size: 3rem;
+	color: #0e76bd;
+	line-height: 10rem;
+}
+.z-close{
+	width: 25px;
+	height: 25px;
+	background: url(../images/z-close.jpg) no-repeat;
+	position: absolute;
+	top: 1.9rem;
+	right: .7rem;
+}
+
+
+.z-details-con-con{
+	font-size: 1.4rem !important;
+}
+/*加入我们结束*/

@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1001px) {
+	.z-com-pro-wraper{
+		width: 100rem;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.z-com-pro-wraper{
+		width: 98%;
+		margin: 0 auto;
+	}
+}
+/* @media only screen and (max-width: 640px) {
+	.z-com-pro-wraper{
+		width: 98%;
+		margin: 0 auto;
+	}
+} */
+@media only screen and (min-width: 1001px) {
+	.z-culAobj-wraper{
+		width: 100rem;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.z-culAobj-wraper{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.z-cul,.z-obj{
+		width: 46%;
+		vertical-align: top;
+	}
+	.z-cul{
+		margin-bottom: 4.5rem;
+		margin-right: 2rem;
+		margin-left: 1rem;
+	}
+	.z-obj{
+		margin-right: 1rem;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.z-cul,.z-obj{
+		display: block;
+		width: 98%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		background-size: cover;
+	}
+	.z-cul{
+		margin-bottom: 3.8rem;
+	}
+}
+@media only screen and (min-width: 1001px) {
+	.z-join-wraper{
+		width: 100rem;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.z-join-wraper{
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 641px ) and (max-width: 1000px){
+	.z-join-list{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.z-join-list{
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.z-list-item-bg{
+		display: none;
+	}
+	.z-item-con{
+		width: 100%;
+	}
+}

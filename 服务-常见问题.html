@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>公司服务页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta content="initial-scale=1,minimun-scalable=no, width=device-width" name="viewport">
+	<script type="text/javascript" src="js/move.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+</head>
+<body>
+	<header>
+	<div class="header-content">
+	<div class="header-content-left">
+		<img src="images/logo.png"><span>成都容海</span>
+		</div>
+		<ul>
+			<li>首页</li>
+			<li>资讯</li>
+			<li>产品</li>
+			<li>案例</li>
+			<li>服务</li>
+			<li>我们</li>
+			<a class="ac"></a>
+		</ul>
+	</div>
+	</header>
+	<div class="ys-title">
+	<picture>
+	<source srcset="images/titlex1.jpg" media="(max-width:500px)"> <source srcset="images/titlex1.jpg" media="(max-width: 300px)">
+    <img  srcset="images/title.png">
+    </picture>
+	</div>
+	
+		<div class="ys-product"><strong>服务与技术</strong><strong style="margin-left:32px">SERVICE AND TECHNOLOGY</strong></div>
+		<div class="service-title">
+		<a href="">
+			<img src="images/prvaim.png">
+			<span>客户服务</span>
+		</a>
+		<a href="">
+			<img src="images/prvain2.png">
+			<span>技术运营</span>
+		</a>
+		<a href="">
+			<img src="images/prvain3.png">
+			<span style="color:#0e76bd;">常见问题</span>
+		</a>
+	    </div>
+	    <div class="service-content" id="move">
+	    <div class="service-cc">
+	    	<a  class="page" id="page1"><i>1</i>栏目的快速查找功能<span id="yy"></span>
+	    	</a>
+          <div class="cc-content" id="jj">
+            	1、站群提供了栏目快速定位功能<br>
+2、快速定位启用位置在栏目树上点击右键 选择“定位栏目”，在站点下方弹出定位框。可以通过栏目唯一标识和栏目编号进行快速定位。<br>
+3、快速定位的栏目一旦被找到回立即打开对应的信息列表。<br>
+            </div>
+	    </div>
+	    <div class="service-cc">
+	    	<a  class="page" id="page2"><i>2</i>可视化编辑器中表格的智能格式化的说明<span ></span></a>
+	    	<div class="cc-content">
+	    	</div>
+	    </div>
+	    <div class="service-cc">
+	    	<a class="page" id="page3"><i>3</i>站群进行视频上传的注意事项<span></span></a>
+	    	<div class="cc-content"></div>
+	    </div>
+	    <div class="service-cc">
+	    	<a  class="page" id="page4"><i>4</i>栏目的快速查找功能<span></span></a>
+	    	<div class="cc-content"></div>
+	    </div>
+	    <div class="service-cc">
+	    	<a  class="page" id="page5"><i>5</i>可视化编辑器中表格的智能格式化的说明<span></span></a>
+	    	<div class="cc-content"></div>
+	    </div>
+	    <div class="service-cc">
+	    	<a  class="page" id="page6"><i>6</i>站群进行视频上传的注意事项<span></span></a>
+	    	<div class="cc-content"></div>
+	    </div>
+	    <div class="service-cc">
+	    	<a  class="page" id="page7"><i>7</i>栏目的快速查找功能<span></span></a>
+	    	<div class="cc-content"></div>
+	    </div>
+	    <div class="service-cc">
+	    	<a  class="page" id="page8"><i>8</i>可视化编辑器中表格的智能格式化的说明<span></span></a>
+	    	<div class="cc-content"></div>
+	    </div>
+	    <div class="service-cc">
+	    	<a  class="page" id="page9"><i>9</i>站群进行视频上传的注意事项<span></span></a>
+	    	<div class="cc-content"></div>
+	    </div>
+	    </div>
+	    <div style="clear:both"></div>
+		<footer>
+		<div class="footer-content">
+		<div class="shiwu"></div>
+        <div class="footer-left"><img src="images/ewm.png">
+        <span>关注我们,扫一扫</span>
+        </div>
+        <ul class="footer-right">
+        	 <li><a href="主页.html">首  页</a><span> | </span><a href="新闻中心.html">资讯</a><span> | </span><a href="产品.html">产品 </a> <span> | </span><a href="案例.html"> 案例 </a> <span> | </span> <a href="服务-客服.html"> 服务 </a><span> | </span> <a href="联系我们.html"> 我们</a></li>
+        	<li>版权所有：Copyright © 2012 成都容海信息技术有限责任公司
+蜀ICP备：12020075号 </li>
+        	<li>
+        	<picture>
+        	
+        	<source srcset="images/qqm.png" media="(max-width: 450px)">
+        		<img src="images/qq.png">
+        	</picture>
+        		<span>在线QQ客服</span>
+        		<span>9:30 18:33</span>
+        	</li>
+        </ul>	
+		</div>
+	</footer>
+	<script type="text/javascript">
+        
+            $('.service-cc a').bind('click',function(){			
+	        $(this).toggle(
+	        function (){
+	        	$(this).css('background','#fff').find('span').css('transform','rotate(0deg)')
+	        	$(this).next().css({'display':'block','height':200,'opacity':1});
+	        	$(this).parent().css({'border-left':'1px dashed #666666','border-right':'1px dashed #666666'})
+              },function (){
+	        	$(this).css('background','#f0f0f0').find('span').css('transform','rotate(-90deg)');
+	        	$(this).next().css({'display':'block','height':0,'opacity':0});
+	        	$(this).parent().css({'border-left':'0px dashed #666666','border-right':'0px dashed #666666'})
+             },false 
+            
+	        )
+
+
+		});
+           
+	  // window.onload = function(){
+            
+   //          var oMove =document.getElementById('move');
+   //          var list =oMove.getElementsByTagName('a');
+   //          var ui=document.getElementById('jj');
+   //          var yy=document.getElementById('yy');
+   //          for(var i=0;i<list.length;i++){
+   //          	list[i].onclick=function(){
+   //          	ui.style.display="block";
+   //          	startMove(ui,'height',500);
+   //          	yy.style.transform="rotate(0deg)";
+                
+   //          	}
+   //          }
+   //      }
+	</script>
+</body>
+</html>

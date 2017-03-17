@@ -1,0 +1,40 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #fff;
+}
+.z-con-us{
+	background: #f0f0f0;
+}
+/*头子开始*/
+.z-abo-us{
+	width: 100%;
+}
+.z-abo-us img{
+	max-width: 100%;
+}
+.z-con-us-pic{
+	width: 100%;
+	height: 12.6rem;
+	line-height: 12.6rem;
+}
+.z-con-us-pic img{
+	vertical-align: middle;
+	max-width: 100%;
+}
+/*头子结束*/
+
+/*内容开始*/
+.z-pic{
+	display: inline-block;
+	width: 31%;
+	margin-bottom: 2rem;
+	font-size: 0;
+}
+.z-pic img{
+	max-width: 100%;
+	/*display: block;*/
+	border: 0;
+}
+/*内容结束*/
